@@ -1,0 +1,21 @@
+.jaa{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border-style: none;
+    width: 200px;
+    padding: 15px 0px;
+    color: white;
+    font-size: 100%;
+}

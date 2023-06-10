@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    background-color: #18191f;
+    color: #17D4FE;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jaa{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+img{
+    height: 100%;
+
+    
+}
+
+button{
+    background-color: #18191f;
+    display: flex;
+    margin: 5px 20px;
+    flex-direction: column;
+    color: white;
+
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px #17D4FE,
+    0px 0px 20px #17D4FE;
+    
+}
+
+.wit {
+    background-color: white;
+    color: black;
+}

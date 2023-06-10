@@ -1,0 +1,21 @@
+span{
+    font-size: xx-large;
+    font-weight: bold;
+    color: orange;
+}
+
+h1{
+    color: orange;
+}
+
+body{
+    background-color: black;
+}
+
+#tijd{
+    color: #17D4FE;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+}
