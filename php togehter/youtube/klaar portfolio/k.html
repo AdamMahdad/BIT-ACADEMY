@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="one-piece-monkey-d-luffy-pfp-1.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4b693c4e1a.js" crossorigin="anonymous"></script>    <title>Document</title>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+    	<div class="background one" id="home">
+
+    <div class="navbar">
+        <div class="begin">
+            <div class="begin-content"><a href="k.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1024px-Default_pfp.svg.png" alt=""></a></div>
+        </div>
+
+        <div class="midden">
+            <div class="midden-content">
+                <nav>
+                    <ul>
+                        <a href="CV.docx" download="CV"><li>Download CV</li></a>
+                        <a href="k.html" id=""><li>home</li></a>
+                        <a href="#projecten"><li>mijn werk</li></a>
+                        <a href="#page2" class="over"><li>over mij</li></a>
+                        <a href="https://www.rocmn.nl/contact/harmonielaan-1" target="_blank"><li class="mijnschool">mijn school</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="article-nav-buttonf" type="button" onClick="slide('next')">
+        <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+    </button>
+    <div class="content">
+        <h4 class="intro2">Hello mijn naam is:</h4>
+        <h1 class="intro">Adam Mahdad: 574377</h1> 
+        <h3 class="intro3">Ik doe de opleiding software developer</h3>
+        <div class="input">
+            <form action="email.php" method="post">
+                <input type="text" name="email" id="email" placeholder="met wie heb ik genoegen">
+                <input type="submit" name="submit" id="submit" placeholder="sturen">
+            </form>
+        </div>
+    </div>
+    
+        </div>
+        <div id="div">
+          <div id="page2" class="background two">
+            <button class="article-nav-buttonf" type="button" onClick="slide('prev')">
+                <i class="fa-solid fa-arrow-left-long" style="color: #ffffff;"></i>
+            </button>
+            <button class="article-nav-buttonf" type="button" onClick="slide('next')">
+                <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;"></i>
+            </button>    <div class="mijcont">
+        <h1 class="mijh1">about me</h1>
+        <div id="mijcont" class="overmij-content">
+            <h1 class="mijh1">ik ben Adam Mahdad</h1>
+            <p>
+                mijn naam is adam mahdad, ik ben 16 jaar oud. ik ben geboren en getogen in utrecht.
+                ik ben een junior software developer, ik hoop dat mezelf ga ontwikkelen tot een back-end developer.
+                ik heb ervaring met PHP, HTML/CSS en JS, maar ik hoop later in de toekomst het te kunnen uitbreiden met python,
+                java en c++
+
+            </p>
+        </div>
+    </div>
+          </div>
+        </div>
+        <div id="projecten" class="background three">
+            <nav data-toggled="false" data-transitionable="false">
+                <div id="nav-logo-section" class="nav-section">
+                </div>
+                <div id="nav-mobile-section">
+                  <div id="nav-link-section" class="nav-section">
+                    <a style="transition: all 1s ease;" href="#home">HOME</a>
+                    <a href="CV.docx">DOWNLOAD CV</a>
+                  </div>
+                  <div id="nav-social-section" class="nav-section">
+                  </div>
+                  <div id="nav-contact-section" class="nav-section">
+                    <a href="#">CONTACT</a>
+                  </div>
+                </div>
+                <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+                  <span>Menu</span>
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </nav>
+              <main>
+                <article data-index="0" data-status="active">
+                  <div class="article-image-section article-section"></div>
+                  <div class="article-description-section article-section">
+                    <p>
+                      Ik moest een web applicatie maken galgje met PHP en HTML/CSS
+                    </p>
+                  </div>
+                  <div class="article-title-section article-section">
+                    <h2>Galgje</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                  </div>
+                  <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffff;"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                      <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>                    </button>
+                  </div>
+                  <button class="article-nav-buttonf" type="button" onClick="slide('prev')">
+                    <i class="fa-solid fa-arrow-left-long" style="color: #dc143c;"></i>
+                </article>
+                <article data-index="1" data-status="inactive">    
+                  <div class="article-image-section article-section"></div>
+                  <div class="article-description-section article-section">
+                    <p>Ik moest het spel steen papier schaar bouwen met JS en HTML/CSS.</p>
+                  </div>
+                  <div class="article-title-section article-section">
+                      <h2>Steen Papier Schaar</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                  </div>
+                  <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                      <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+<i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>                    </button>
+                  </div>
+                  <button class="article-nav-buttonf" type="button" onClick="slide('prev')">
+                    <i class="fa-solid fa-arrow-left-long" style="color: #dc143c;"></i>
+                </button>
+                </article>
+                <article data-index="2" data-status="inactive">    
+                  <div class="article-image-section article-section"></div>
+                  <div class="article-description-section article-section">
+                    <p>Ik moest een website namaken genaamd jarvis ONLY HTML/CSS.</p>
+                  </div>
+                  <div class="article-title-section article-section">
+                    <h2>Jarvis Gehacked</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                  </div>
+                  <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+<i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>                    </button>
+                  </div>
+                  <button class="article-nav-buttonf" type="button" onClick="slide('prev')">
+                    <i class="fa-solid fa-arrow-left-long" style="color: #dc143c;"></i>
+                </article>
+                <article data-index="3" data-status="inactive">    
+                  <div class="article-image-section article-section"></div>
+                  <div class="article-description-section article-section">
+                    <p>
+                      Ik heb een functioneerde iphone calculator nagebouwd.
+                    </p>
+                  </div>
+                  <div class="article-title-section article-section">
+                    <h2>Iphone calculator</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                  </div>
+                  <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                      <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>                    </button>
+                  </div>
+                  <button class="article-nav-buttonf" type="button" onClick="slide('prev')">
+                    <i class="fa-solid fa-arrow-left-long" style="color: #dc143c;"></i>
+                </button>
+                </article>
+              </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
