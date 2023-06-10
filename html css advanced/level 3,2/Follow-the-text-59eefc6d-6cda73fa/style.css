@@ -1,0 +1,24 @@
+.icon:hover + .tooltip-content{
+    background-color: black;
+    color: white;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.tooltip-content{
+    visibility: hidden;
+    display: none;
+
+}
+
+.icon{
+    position: relative;
+    left: 400px;
+}
+
+.tooltip{
+    position: sticky;
+    top: 0%;
+}

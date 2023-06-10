@@ -1,0 +1,78 @@
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+img{
+    height: auto;
+    width: 400px;
+    border: 5px solid wheat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+img:hover{
+    transform:scale(1.5);
+
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px #f9004d;
+}
+
+.steen{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px #f9004d;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.gal{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px #f9004d;
+    width: 400px;
+
+}
+
+.jar{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px #f9004d;
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+
+.tek{
+    display: flex;
+    flex-direction: row;
+}

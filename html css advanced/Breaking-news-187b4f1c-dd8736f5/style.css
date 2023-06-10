@@ -1,0 +1,74 @@
+.navbar{
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: 2px solid black;
+
+}
+
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:burlywood ;
+
+}
+
+.content :nth-child(4){
+    order: -1;
+    width: 60%;
+    font-size: x-large;
+    justify-self: center;
+
+}
+
+.content :nth-child(3){
+    order: 4;
+  text-align: center;
+}
+.content :nth-child(2){
+    order: 3;
+    text-align: center;
+ 
+}
+.news{
+    width: 33%;
+    text-align: center;
+
+    
+    
+}
+
+.news:nth-child(1){
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.news:nth-child(2), .news:nth-child(3), .news:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#breaking {
+    margin-bottom: 30px;
+}
+
+.news:nth-child(2), .news:nth-child(3){
+    margin-left: 5vw;
+}
+
+h3:nth-of-type(4){
+background-color:  red;
+}
+
+#breaking > h3{
+    font-size: 48px;
+}

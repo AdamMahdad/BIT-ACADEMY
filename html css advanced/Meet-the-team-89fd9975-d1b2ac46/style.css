@@ -1,0 +1,48 @@
+.collegas{
+    display: flex;
+    justify-content: center;
+    gap: 10px ;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.collega{
+    box-shadow: 2px 0px 5px;
+    background-color: antiquewhite ;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+img[alt="collega3"], img[alt="collega1"], img[alt="collega2"]{
+   border-radius: 45px;
+   padding: 30px;
+   height: 200px;
+   width: 200px;
+   object-fit: none;
+}
+
+.collega > img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+
+
+body > div > div:nth-child(1) > img{
+    object-position: 0% 50%;
+
+}
+
+body > div > div:nth-child(3) > img{
+    object-position: 100% 0%;
+}
+
+
